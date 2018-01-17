@@ -1,0 +1,352 @@
+html{
+  font-size: 16px;
+  font-family: "Khula", sans-serif;
+}
+
+#wrapper{
+  width: 1025px;
+  margin: auto;
+}
+
+#header {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 24px;
+  padding-right: 24px;
+  height: 64px;
+  font-family: "Verdana", sans-serif;
+}
+
+p{
+  font-family: "Verdana", sans-serif;
+}
+
+#header h2{
+  color: black;
+  height: 32px;
+  display: flex;7
+  align-content: center;
+  margin-top: auto;
+}
+
+#header span{
+  align-content: center;
+}
+
+#header span h2 span{
+  color: grey;
+}
+
+#header span{
+  display: flex;
+  justify-content:  space-between;
+  flex-direction: row;
+  align-content: center;
+}
+
+#header var{
+  align-content: center;
+}
+
+#header img{
+  left-padding: 24px;
+}
+
+mav {
+  padding-right: 50px;
+}
+
+nav ul{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-content: center;
+}
+
+nav ul li{
+  padding-left: 16px;
+}
+
+#banner {
+
+  background-color: LightSteelBlue;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+#banner .banner_left{
+  width: 60%;
+  padding-top: 32px;
+  padding-left: 24px;
+  padding-right: 24px;
+  #pdc
+}
+
+#banner .banner_left .banner_img_container_img img {
+  display: block;
+  max-width: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  margin-bottom: 32px;
+}
+
+#banner_right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  padding-right: 24px;
+}
+
+#banner_right h2{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#banner_right h4{
+  background-color: grey;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+}
+
+#secondary_banner{
+  width: 100%;
+  margin: auto;
+  background-color: GhostWhite;
+  display: flex;
+  flex-direction: row;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+#secondary_banner_left {
+  display: flex;
+  flex-direction: column;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 60%;
+}
+
+#secondary_banner_img img{
+  display: block;
+  max-width: 1104px;
+  max-width: 606px;
+  width: auto;
+  height: auto;
+  margin-right: 24px;
+}
+
+#secondary_banner_right {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+#secondary_banner_caption {
+  padding-left: 24px;
+}
+
+#secondary_banner_caption h2{
+  font-weight: 900;
+  font-size: 1.8rem;
+}
+
+#secondary_banner_caption p{
+  font-style: bold;
+}
+
+#secondary_banner_caption h4{
+  font-style: normal;
+  font-weight: lighter;
+  font-size: .8rem;
+  #position: absolute;
+  #bottom: 0;
+}
+
+#secondary_banner_right{
+  width: 40%;
+}
+
+.secondary_banner_right_box{
+  display: flex;
+  flex-direction: row;
+}
+
+.secondary_banner_right_box .banner_img{
+  width: 35%;
+  padding: 16px;
+}
+
+.secondary_banner_right_box .banner_img img{
+  display: block;
+  height: auto;
+  max-width:100%;
+  max-height:100%;
+
+}
+
+.secondary_banner_right_box .details{
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+
+.secondary_banner_right_box .details p,a{
+  font-size: .75rem;
+}
+
+#learning_banner{
+  #width: 100%;
+  padding-left: 72px;
+  padding-right: 72px;
+  background-color: lightblue;
+  padding-bottom: 32px;
+}
+
+#learning_banner h1{
+  font-size: 2rem;
+  padding-top: 32px;
+  text-align: center ;
+}
+
+.top_learning_box_row{
+  display: flex;
+  flex-direction:row;
+  margin-bottom: 32px;
+  align-content: space-between;
+}
+
+.bottom_learning_box_row{
+  display: flex;
+  flex-direction:row;
+  align-content: space-between;
+}
+
+.learning_box{
+  margin-right: 32px;
+  width: 33%;
+  background-color: white;
+}
+
+.learning_box:nth-last-child(1){
+  margin-right: -1px;
+}
+
+.learning_box img{
+  display: block;
+  height: auto;
+  width: auto;
+  max-width:100%;
+  max-height:100%;
+  #margin-right: 32px;
+}
+
+.learning_box h2{
+  font-weight: bold;
+  padding-left: 16px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 1.3rem;
+}
+
+.learning_box h3,p{
+  font-family: "Verdana", sans-serif;
+  font-weight: normal;
+  padding-left: 16px;
+}
+
+#thesis h2{
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+#exhibit_banner{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+#exhibit_banner_left{
+  width: 60%;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+#exhibit_banner_left video{
+  display: block;
+  height: auto;
+  width: auto;
+  max-width:100%;
+  max-height:100%;
+}
+
+#exhibit_banner_left p{
+  margin-bottom: 32px;
+}
+
+#exhibit_banner_right{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+#exhibit_banner_right .exhibit_banner_right{
+  display: flex;
+  flex-direction: row;
+}
+
+.exhibit_banner_right_entry{
+  display: flex;
+  flex-direction: row;
+}
+
+#exhibit_banner_right_img{
+  width: 35%;
+  padding: 16px;
+}
+
+#exhibit_banner_right_details{
+  width: 65%;
+}
+
+#exhibit_banner_right .exhibit_banner_right_img{
+  display: block;
+  height: auto;
+  width: auto;
+  max-width:100%;
+  max-height:100%;
+}
+
+#footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: lighter;
+    font-size: .75rem;
+    margin-left: 24px;
+}
+
+#footer ul{
+  margin-right: 24px;
+  display: flex;
+  flex-direction: row;
+}
+
+#footer ul li{
+  margin-right: 24px;
+  list-style: none;
+}
